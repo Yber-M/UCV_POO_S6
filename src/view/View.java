@@ -99,8 +99,9 @@ public class View extends javax.swing.JFrame {
         jPanel5.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(100, 50, 240, 50));
 
         TermNtxt.setEditable(false);
+        TermNtxt.setBackground(new java.awt.Color(51, 51, 51));
         TermNtxt.setFont(new java.awt.Font("mononoki", 3, 18)); // NOI18N
-        TermNtxt.setForeground(new java.awt.Color(0, 204, 0));
+        TermNtxt.setForeground(new java.awt.Color(0, 255, 51));
         jPanel5.add(TermNtxt, new org.netbeans.lib.awtextra.AbsoluteConstraints(340, 50, 190, 50));
 
         jLabel2.setFont(new java.awt.Font("mononoki", 1, 15)); // NOI18N
@@ -108,8 +109,9 @@ public class View extends javax.swing.JFrame {
         jPanel5.add(jLabel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 120, 320, 50));
 
         Sumatoriatxt.setEditable(false);
+        Sumatoriatxt.setBackground(new java.awt.Color(51, 51, 51));
         Sumatoriatxt.setFont(new java.awt.Font("mononoki", 3, 18)); // NOI18N
-        Sumatoriatxt.setForeground(new java.awt.Color(0, 204, 0));
+        Sumatoriatxt.setForeground(new java.awt.Color(0, 255, 51));
         Sumatoriatxt.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 SumatoriatxtActionPerformed(evt);
@@ -170,8 +172,9 @@ public class View extends javax.swing.JFrame {
         jPanel2.add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 350, 240, 30));
 
         Sumatoriatxt1.setEditable(false);
+        Sumatoriatxt1.setBackground(new java.awt.Color(51, 51, 51));
         Sumatoriatxt1.setFont(new java.awt.Font("mononoki", 3, 18)); // NOI18N
-        Sumatoriatxt1.setForeground(new java.awt.Color(0, 204, 0));
+        Sumatoriatxt1.setForeground(new java.awt.Color(0, 255, 51));
         Sumatoriatxt1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 Sumatoriatxt1ActionPerformed(evt);
@@ -232,9 +235,10 @@ public class View extends javax.swing.JFrame {
         jPanel3.add(TamanoN_txt, new org.netbeans.lib.awtextra.AbsoluteConstraints(400, 50, 160, 50));
 
         SalidaP3_txt.setEditable(false);
+        SalidaP3_txt.setBackground(new java.awt.Color(51, 51, 51));
         SalidaP3_txt.setColumns(20);
-        SalidaP3_txt.setFont(new java.awt.Font("mononoki", 1, 14)); // NOI18N
-        SalidaP3_txt.setForeground(new java.awt.Color(0, 153, 51));
+        SalidaP3_txt.setFont(new java.awt.Font("mononoki", 1, 21)); // NOI18N
+        SalidaP3_txt.setForeground(new java.awt.Color(0, 255, 51));
         SalidaP3_txt.setLineWrap(true);
         SalidaP3_txt.setRows(5);
         jScrollPane1.setViewportView(SalidaP3_txt);
